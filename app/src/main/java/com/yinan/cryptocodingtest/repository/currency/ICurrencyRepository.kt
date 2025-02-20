@@ -1,7 +1,7 @@
 package com.yinan.cryptocodingtest.repository.currency
 
-import com.yinan.cryptocodingtest.model.CurrencyTier
-import com.yinan.cryptocodingtest.model.SupportedCurrency
+import com.yinan.cryptocodingtest.model.entities.CurrencyTier
+import com.yinan.cryptocodingtest.model.entities.SupportedCurrency
 
 /**
  * the interface defines the request functions attached to currencies

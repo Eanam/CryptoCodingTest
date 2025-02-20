@@ -1,6 +1,6 @@
 package com.yinan.cryptocodingtest.repository.wallet
 
-import com.yinan.cryptocodingtest.model.WalletAsset
+import com.yinan.cryptocodingtest.model.entities.WalletAsset
 
 interface IWalletRepository {
 

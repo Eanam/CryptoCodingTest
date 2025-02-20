@@ -2,10 +2,10 @@ package com.yinan.cryptocodingtest.repository.currency
 
 import com.google.gson.Gson
 import com.yinan.cryptocodingtest.exceptions.NetworkException
-import com.yinan.cryptocodingtest.model.CurrencyTier
-import com.yinan.cryptocodingtest.model.LiveRateResponse
-import com.yinan.cryptocodingtest.model.SupportedCurrency
-import com.yinan.cryptocodingtest.model.SupportedCurrencyResponse
+import com.yinan.cryptocodingtest.model.entities.CurrencyTier
+import com.yinan.cryptocodingtest.model.entities.LiveRateResponse
+import com.yinan.cryptocodingtest.model.entities.SupportedCurrency
+import com.yinan.cryptocodingtest.model.entities.SupportedCurrencyResponse
 import com.yinan.cryptocodingtest.utils.getContentFromAssetJsonFile
 
 /**

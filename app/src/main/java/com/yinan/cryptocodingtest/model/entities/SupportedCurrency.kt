@@ -1,4 +1,4 @@
-package com.yinan.cryptocodingtest.model
+package com.yinan.cryptocodingtest.model.entities
 
 import com.google.gson.annotations.SerializedName
 
