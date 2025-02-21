@@ -1,6 +1,13 @@
 Hi, here is the coding demo from chenyinan, for you convenience，below is some simple introduction about this project.
 
-#### Direct Structure
+#### 1. Development Enviromment
+
+- Android Studio: **_Android Studio Ladybug | 2024.2.1 Patch 2_**
+- Gradle: **_8.9_**
+- AGP: **_8.7.2_**
+- Kotlin: **_1.9.34_**
+
+#### 2. Direct Structure
 
 ```plain
 src/main
@@ -41,3 +48,9 @@ src/main
                 └── viewmodels
                     └── MainViewModel.kt
 ```
+
+#### 3. Some Design<br/>
+
+- ICurrencyRepository & IWalletRepository<br/><br/>
+  &nbsp;&nbsp;To facilitate the integration of api requests, MainViewModel is only aware of these interfaces. And we can replace the implementations of them later. <br/><br/>
+  &nbsp;&nbsp;As long as the the structure of correponding api response is not modified, we don't need to change other code.
