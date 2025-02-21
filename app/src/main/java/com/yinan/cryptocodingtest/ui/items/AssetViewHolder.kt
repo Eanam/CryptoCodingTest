@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.yinan.cryptocodingtest.R
 import com.yinan.cryptocodingtest.model.WalletAssetWrapper
 import com.yinan.cryptocodingtest.utils.load
+import com.yinan.cryptocodingtest.utils.transformToDisplayUniform
 
 class AssetViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
@@ -23,7 +24,11 @@ class AssetViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             tvCoinName.text = coinName
             tvCoinAmount.text = "$displayAmount $symbol"
             tvCoinValue.text =
-                if (prefixSymbol == null) "" else "$prefixSymbol  $convertedTargetValue"
+                if (prefixSymbol == null) {
+                    ""
+                } else {
+                    "$prefixSymbol  ${convertedTargetValue.transformToDisplayUniform()}"
+                }
         }
     }
 

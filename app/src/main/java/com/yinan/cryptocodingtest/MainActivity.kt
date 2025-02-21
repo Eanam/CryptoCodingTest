@@ -27,6 +27,7 @@ import com.yinan.cryptocodingtest.ui.adapters.AssetsAdapter
 import com.yinan.cryptocodingtest.utils.isZero
 import com.yinan.cryptocodingtest.utils.setColorSpan
 import com.yinan.cryptocodingtest.utils.setFontSize
+import com.yinan.cryptocodingtest.utils.transformToDisplayUniform
 import com.yinan.cryptocodingtest.viewmodels.MainViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collectLatest
@@ -127,7 +128,7 @@ class MainActivity : AppCompatActivity() {
             spannableBuilder.append(" ")
 
             spannableBuilder.append(
-                totalValue.toPlainString().let {
+                totalValue.transformToDisplayUniform().let {
                     SpannableString(it).apply {
                         setColorSpan(highLightColor)
                         setFontSize(25)
