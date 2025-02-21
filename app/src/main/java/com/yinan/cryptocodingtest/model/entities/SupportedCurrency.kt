@@ -13,4 +13,5 @@ class SupportedCurrency(
     @SerializedName("name") val coinName: String,
     @SerializedName("symbol") val coinSymbol: String,
     @SerializedName("colorful_image_url") val colorfulCoinAvatarUrl: String,
+    @SerializedName("display_decimal") val displayDecimal: Int
 )

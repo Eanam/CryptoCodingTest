@@ -48,6 +48,11 @@
             android:gravity="end"
             android:textColor="#000000"
             android:textSize="16sp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMaxTextSize="16sp"
+            app:autoSizeMinTextSize="8sp"
+            android:lines="1"
+            android:ellipsize="marquee"
             app:layout_constraintBottom_toTopOf="@id/tvCoinValue"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="67.2713816231BAT" />
