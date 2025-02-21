@@ -1,4 +1,4 @@
-Hi, here is the coding demo from chenyinan, for you convenience，below is some simple introduction about this project.
+Hi, here is the coding demo from [Chen Yinan](./陈奕楠-Android应用开发-15816627913.pdf), for you convenience，below is some simple introduction about this project.
 
 #### 1. Development Enviromment
 
